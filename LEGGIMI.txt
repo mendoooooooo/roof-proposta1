@@ -1,0 +1,20 @@
+ROOF - apertura diretta
+
+1. Estrai tutta la cartella dallo ZIP.
+2. Apri index.html con un doppio clic.
+
+Mantieni index.html, style.css e app.js nella stessa cartella.
+Non servono Live Server, Node o installazioni.
+Serve una connessione internet per video, foto e font collegati ai siti originali. I media non sono inclusi nello ZIP.
+
+I contenuti sono incorporati in app.js: non serve content.json.
+
+La schermata iniziale attende il primo fotogramma del video. Dopo 15 secondi o in caso di errore lascia comunque accedere al sito.
+
+GSAP 3.15.0 incluso nella cartella vendor: anima il caricamento e le transizioni dei progetti. Mantieni la cartella vendor accanto a index.html.
+
+ScrollTrigger 3.15.0 incluso in vendor: reveal allo scroll, parallax leggero su desktop e progresso di lettura. Scroll nativo, effetti ridotti con preferenza di sistema.
+
+
+LINGUA IT/EN
+Selettore sempre disponibile nell’header, anche su mobile. Inglese iniziale, scelta salvata nel browser quando disponibile. La traduzione è locale e funziona aprendo index.html. Nomi di brand, progetti, tour, crediti professionali e termini come live visuals, Notch, NFT, AI e game development restano in inglese. Testi, servizi, navigazione e descrizioni sono tradotti. Nessuna nuova libreria. File aggiunti: translations.js e language.js.
