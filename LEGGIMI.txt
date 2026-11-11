@@ -18,3 +18,7 @@ ScrollTrigger 3.15.0 incluso in vendor: reveal allo scroll, parallax leggero su 
 
 LINGUA IT/EN
 Selettore sempre disponibile nell’header, anche su mobile. Inglese iniziale, scelta salvata nel browser quando disponibile. La traduzione è locale e funziona aprendo index.html. Nomi di brand, progetti, tour, crediti professionali e termini come live visuals, Notch, NFT, AI e game development restano in inglese. Testi, servizi, navigazione e descrizioni sono tradotti. Nessuna nuova libreria. File aggiunti: translations.js e language.js.
+
+
+FOTO INGRANDITE
+Nelle pagine dei progetti la foto cliccata cresce dalla miniatura in una cornice arrotondata su fondo scuro e sfocato, con titolo e numero immagine; si chiude con il pulsante rotondo, cliccando sul fondo o con Esc, e rientra nella miniatura senza scatti.
