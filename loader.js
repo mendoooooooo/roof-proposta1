@@ -40,7 +40,7 @@
   };
   if (!hero) { reveal(); return; }
   // Keep navigation available even if the external media server is unreachable.
-  fallback = setTimeout(reveal, 15000);
+  fallback = setTimeout(reveal, 8000);
   window.addEventListener('hashchange', reveal, { once: true });
   hero.addEventListener('error', reveal, { once: true });
   const frameReady = () => {
