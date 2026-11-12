@@ -25,4 +25,4 @@ Nelle pagine dei progetti la foto cliccata cresce dalla miniatura in una cornice
 
 
 CAMBIO PAGINA
-La pagina attuale sfuma, la nuova si prepara invisibile e compare con una dissolvenza solo quando i video della prima schermata possono partire (su mobile attende un po di piu, al massimo circa 2,4 secondi; su desktop al massimo 1,2 secondi).
+mentre la pagina attuale sfuma, i video della prima schermata della pagina successiva si stanno gia scaricando (uno dopo l altro, il primo ha la precedenza); la nuova pagina compare con i video gia pronti e in riproduzione. In About il video ROOF ha la precedenza: il secondo video inizia a caricarsi solo quando il ROOF puo partire.
