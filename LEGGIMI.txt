@@ -5,7 +5,7 @@ ROOF - apertura diretta
 
 Mantieni index.html, style.css e app.js nella stessa cartella.
 Non servono Live Server, Node o installazioni.
-Serve una connessione internet per video, foto e font collegati ai siti originali. I media non sono inclusi nello ZIP.
+Serve una connessione internet per foto, font e (su desktop) video, collegati ai siti originali.
 
 I contenuti sono incorporati in app.js: non serve content.json.
 
@@ -26,3 +26,7 @@ Nelle pagine dei progetti la foto cliccata cresce dalla miniatura in una cornice
 
 CAMBIO PAGINA
 mentre la pagina attuale sfuma, i video della prima schermata della pagina successiva si stanno gia scaricando (uno dopo l altro, il primo ha la precedenza); la nuova pagina compare con i video gia pronti e in riproduzione. In About il video ROOF ha la precedenza: il secondo video inizia a caricarsi solo quando il ROOF puo partire.
+
+
+VIDEO PIU LEGGERI SU MOBILE
+Nella cartella media/m ci sono copie leggere dei 21 video del sito (i loop in 720p, i video lunghi dei progetti in 540p), circa 57 MB in tutto invece di 266 MB. Su telefoni e schermi fino a 900 px il sito usa automaticamente queste copie; su desktop restano i video originali in Full HD dal sito di ROOF. Tieni la cartella media accanto a index.html.
